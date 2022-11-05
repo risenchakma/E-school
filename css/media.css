@@ -1,0 +1,277 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+	/*header start*/
+	.header{
+		background-color: #F0FFF0;
+		padding: 5px 0;
+	}
+	.logo{
+		width: 170px;
+	}
+	.menu ul li a{
+		margin-bottom: 5px;
+		padding: 0 10px !important;
+	}
+	/*banner start*/
+	.banner {
+		padding: 15px 0 60px;
+	}
+	.b_text {
+		text-align: center;
+	}
+	.b_h1 {
+		margin: 10px 0 10px;
+		font-size: 28px;
+		line-height: 40px;
+	}
+	.b_p2 {
+		padding: 0 0px;
+		line-height: 30px;
+	}
+	.b_img{
+		margin-bottom: 25px;
+		padding: 0 10px;
+	}
+	/*feature start*/
+	.feature {
+    	padding-bottom: 70px;
+	}
+	.s_feature {
+		margin-top: 24px;
+		padding: 55px 45px;
+	}
+	.f_h2 {
+		font-size: 22px ;
+	}
+	/*feature end*/
+	/*courses start*/
+	.courses{
+		padding-bottom: 70px;
+	}
+	.c_h1{
+		font-size: 36px;
+		font-weight: 700;
+		line-height: 45px;
+}
+	.c_item {
+		margin-top: 30px;
+		padding: 15px 15px 20px;
+	}
+	.c_h2 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.c_li{
+		margin-right: 0px !important;
+	}
+	.calendar ul li img, people ul li img {
+		width: 20px;
+	}
+
+	.calendar ul li span, .people ul li span {
+		font-size: 13px;
+		font-weight: 400;
+	}
+	/*courses end*/
+	/*footer start*/
+	.footer_top {
+    	padding: 55px 0 80px;
+    	text-align: center;
+	}
+	/*footer end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	/*header start*/
+	.menu ul li a{
+		margin-bottom: 5px;
+		padding: 0 10px !important;
+	}
+	/*banner start*/
+	.banner{
+		padding: 15px 0 60px;
+	}
+	.b_text {
+		text-align: center;
+	}
+	.b_h1{
+		margin: 10px 0 10px;
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.b_p2 {
+		padding: 0 55px;
+		line-height: 30px;
+	}
+	.b_img{
+		margin-bottom: 30px;
+		padding: 0 80px;
+	}
+	/*feature start*/
+	.feature {
+    	padding-bottom: 70px;
+	}
+	.s_feature {
+		margin-top: 24px;
+		padding: 55px 45px;
+	}
+	/*feature end*/
+	/*courses start*/
+	.courses{
+		padding-bottom: 70px;
+	}
+	.c_h1{
+		font-size: 36px;
+		font-weight: 700;
+		line-height: 45px;
+}
+	.c_item {
+		margin-top: 30px;
+		padding: 15px 15px 20px;
+	}
+	.c_h2 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.c_li{
+		margin-right: 0px !important;
+	}
+	.calendar ul li img, people ul li img {
+		width: 20px;
+	}
+
+	.calendar ul li span, .people ul li span {
+		font-size: 13px;
+		font-weight: 400;
+	}
+	.c_pad {
+		padding: 0 100px;
+	}
+	/*courses end*/
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*header start*/
+	.menu ul li a{
+		margin-bottom: 10px;
+		padding: 0 10px !important;
+	}
+	/*banner start*/
+	.banner{
+		padding: 15px 0 60px;
+	}
+	.b_text {
+		text-align: center;
+	}
+	.b_h1{
+		margin: 10px 0 10px;
+		font-size: 38px;
+		line-height: 50px;
+	}
+	.b_p2 {
+		padding: 0 100px;
+		line-height: 30px;
+	}
+	.b_img{
+		margin-bottom: 50px;
+		padding: 0 150px;
+	}
+	/*feature start*/
+	.feature {
+    	padding-bottom: 80px;
+	}
+	.s_feature {
+		margin-top: 24px;
+	}
+	/*feature end*/
+	/*courses start*/
+	.courses{
+		padding-bottom: 80px;
+	}
+	.c_item {
+		margin-top: 40px;
+	}
+	.c_pad {
+		padding: 0 150px;
+	}
+	/*courses end*/
+	/*footer start*/
+	.ft_text {
+    	margin-top: 30px;
+       	text-align: center;
+	}
+	.ft_p {
+    	font-size: 14px;
+    	padding: 10px 20px 12px;
+	}
+	/*footer end*/
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+	/*feature start*/
+	.s_feature {
+		min-height: 230px;
+		padding: 35px 15px;
+	}
+
+	/*feature end*/
+	/*courses start*/
+	.c_item {
+		padding: 20px 18px 25px;
+	}
+	.c_li{
+		margin-right: 0px !important;
+	}
+	.calendar ul li img, people ul li img {
+		width: 20px;
+	}
+
+	.calendar ul li span, .people ul li span {
+		font-size: 13px;
+		font-weight: 400;
+	}
+	/*courses end*/
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	
+	/*feature start*/
+	.s_feature {
+		min-height: 264px;
+    	padding: 55px 37px;
+    	transition: .33s;
+	}
+	/*feature end*/
+	/*courses start*/
+	.c_li{
+		margin-right: 0px !important;
+	}
+	.calendar ul li img, people ul li img {
+		width: 22px;
+	}
+	/*courses end*/
+
+}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+	/*feature start*/
+	.s_feature {
+		padding: 72px 20px;
+	}
+	/*feature end*/
+}
